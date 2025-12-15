@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SD BIKEWALA - Futuristic 3D Bike Showroom</title>
+<link rel="stylesheet" href="style1.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Animated Background Particles -->
+<div class="particles">
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+</div>
+
+<!-- Cyber Grid Background -->
+<div class="cyber-grid"></div>
+
+<!-- Loading Screen -->
+<div class="loader" id="loader">
+  <div class="loader-content">
+    <div class="loader-ring"></div>
+    <div class="loader-ring"></div>
+    <div class="loader-ring"></div>
+    <div class="loader-text">SD BIKEWALA</div>
+  </div>
+</div>
+
+<!-- Header -->
+<header>
+  <div class="header-glow"></div>
+  <div class="logo">
+    <span class="logo-icon">⚡</span>
+    <span class="logo-text">SD BIKEWALA</span>
+    <span class="logo-tagline">FUTURE RIDES</span>
+  </div>
+  <nav>
+    <a href="#home" class="nav-link">
+      <span class="nav-icon">🏠</span>
+      <span>Home</span>
+      <span class="nav-glow"></span>
+    </a>
+    <a href="#new" class="nav-link">
+      <span class="nav-icon">🏍️</span>
+      <span>New Bikes</span>
+      <span class="nav-glow"></span>
+    </a>
+    <a href="#used" class="nav-link">
+      <span class="nav-icon">🔄</span>
+      <span>Used Bikes</span>
+      <span class="nav-glow"></span>
+    </a>
+    <a href="#sell" class="nav-link">
+      <span class="nav-icon">💰</span>
+      <span>Sell Bike</span>
+      <span class="nav-glow"></span>
+    </a>
+    <a href="#contact" class="nav-link">
+      <span class="nav-icon">📞</span>
+      <span>Contact</span>
+      <span class="nav-glow"></span>
+    </a>
+  </nav>
+  <div class="header-scanner"></div>
+</header>
+
+<!-- Hero Section with Slideshow -->
+<section class="hero" id="home">
+  <div class="hero-slideshow">
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2">
+    <input type="radio" name="slide" id="slide3">
+    <input type="radio" name="slide" id="slide4">
+    <input type="radio" name="slide" id="slide5">
+    
+    <div class="slides">
+      <div class="slide slide1">
+        <div class="slide-content">
+          <h2 class="glitch" data-text="CLASSIC 350">CLASSIC 350</h2>
+          <p>The Timeless Legend Reimagined</p>
+          <span class="slide-price">₹ 1,05,000</span>
+        </div>
+      </div>
+      <div class="slide slide2">
+        <div class="slide-content">
+          <h2 class="glitch" data-text="BULLET ELECTRA">BULLET ELECTRA</h2>
+          <p>Power Meets Heritage</p>
+          <span class="slide-price">₹ 1,20,000</span>
+        </div>
+      </div>
+      <div class="slide slide3">
+        <div class="slide-content">
+          <h2 class="glitch" data-text="ROADSTER 200">ROADSTER 200</h2>
+          <p>Urban Speed Demon</p>
+          <span class="slide-price">₹ 95,000</span>
+        </div>
+      </div>
+      <div class="slide slide4">
+        <div class="slide-content">
+          <h2 class="glitch" data-text="YAMAHA CHOPPER">YAMAHA CHOPPER</h2>
+          <p>Luxury Custom Experience</p>
+          <span class="slide-price">₹ 5,50,000</span>
+        </div>
+      </div>
+      <div class="slide slide5">
+        <div class="slide-content">
+          <h2 class="glitch" data-text="TRAIL BLAZER 500">TRAIL BLAZER 500</h2>
+          <p>Conquer Every Terrain</p>
+          <span class="slide-price">₹ 2,45,000</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="slide-nav">
+      <label for="slide1" class="slide-dot"></label>
+      <label for="slide2" class="slide-dot"></label>
+      <label for="slide3" class="slide-dot"></label>
+      <label for="slide4" class="slide-dot"></label>
+      <label for="slide5" class="slide-dot"></label>
+    </div>
+  </div>
+  
+  <div class="hero-content">
+    <div class="hero-badge">🏆 #1 PREMIUM SHOWROOM</div>
+    <h1>
+      <span class="hero-line">EXPERIENCE</span>
+      <span class="hero-line hero-highlight">BIKES IN 3D</span>
+    </h1>
+    <p class="hero-desc">Explore our premium collection of Royal Enfield and more with interactive 360° holographic view.</p>
+    <div class="hero-buttons">
+      <a href="#viewer" class="btn-primary">
+        <span>EXPLORE NOW</span>
+        <span class="btn-glow"></span>
+      </a>
+      <a href="#bikes" class="btn-secondary">
+        <span>VIEW COLLECTION</span>
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number">500+</span>
+        <span class="stat-label">Bikes Sold</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">Models</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">10K+</span>
+        <span class="stat-label">Happy Riders</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="hero-bike-display">
+    <div class="hologram-ring"></div>
+    <div class="hologram-ring ring2"></div>
+    <div class="hologram-ring ring3"></div>
+    <img src="https://imgd.aeplcdn.com/476x268/n/cw/ec/127499/bullet-right-side-view-14.png" alt="Featured Bike" class="hero-bike-img">
+  </div>
+  
+  <div class="scroll-indicator">
+    <span>SCROLL DOWN</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- Scrolling Ticker -->
+<div class="ticker">
+  <div class="ticker-content">
+    <span>⚡ NEW ARRIVALS</span>
+    <span>🏍️ CLASSIC 350 IN STOCK</span>
+    <span>💰 EASY EMI OPTIONS</span>
+    <span>🔧 FREE SERVICE FOR 1 YEAR</span>
+    <span>🎁 SPECIAL DISCOUNTS</span>
+    <span>📞 24/7 SUPPORT</span>
+    <span>⚡ NEW ARRIVALS</span>
+    <span>🏍️ CLASSIC 350 IN STOCK</span>
+    <span>💰 EASY EMI OPTIONS</span>
+    <span>🔧 FREE SERVICE FOR 1 YEAR</span>
+    <span>🎁 SPECIAL DISCOUNTS</span>
+    <span>📞 24/7 SUPPORT</span>
+  </div>
+</div>
+
+<!-- 360° Viewer Section -->
+<section class="viewer-section" id="viewer">
+  <div class="section-header">
+    <span class="section-tag">INTERACTIVE EXPERIENCE</span>
+    <h2>360° <span class="highlight">HOLOGRAPHIC</span> VIEWER</h2>
+    <p>Immerse yourself in our cutting-edge virtual showroom technology</p>
+  </div>
+  
+  <div class="viewer-container">
+    <div class="viewer-frame">
+      <div class="frame-corner tl"></div>
+      <div class="frame-corner tr"></div>
+      <div class="frame-corner bl"></div>
+      <div class="frame-corner br"></div>
+      <div class="frame-line top"></div>
+      <div class="frame-line bottom"></div>
+      <div class="frame-line left"></div>
+      <div class="frame-line right"></div>
+      
+      <div class="bike-360-container" id="bike360">
+        <div class="viewer-overlay">
+          <div class="scan-line"></div>
+        </div>
+        <div class="viewer-hud">
+          <div class="hud-item">
+            <span class="hud-label">MODEL</span>
+            <span class="hud-value">CLASSIC 350</span>
+          </div>
+          <div class="hud-item">
+            <span class="hud-label">ENGINE</span>
+            <span class="hud-value">349cc</span>
+          </div>
+          <div class="hud-item">
+            <span class="hud-label">POWER</span>
+            <span class="hud-value">20.2 BHP</span>
+          </div>
+          <div class="hud-item">
+            <span class="hud-label">TORQUE</span>
+            <span class="hud-value">27 Nm</span>
+          </div>
+        </div>
+        
+        <!-- iframe for 3D model viewer -->
+        <iframe 
+          src="https://sketchfab.com/models/cc6e232e8b274a15a6b16a21c9c8c2db/embed?autostart=1&ui_theme=dark" 
+          class="viewer-iframe"
+          allow="autoplay; fullscreen; xr-spatial-tracking"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    
+    <p class="instruction">
+      <span class="instruction-icon">🖱️</span>
+      Click and drag to rotate | Scroll to zoom
+    </p>
+    
+    <div class="bike-selector">
+      <input type="radio" name="bike" id="bike1" checked>
+      <input type="radio" name="bike" id="bike2">
+      <input type="radio" name="bike" id="bike3">
+      <input type="radio" name="bike" id="bike4">
+      <input type="radio" name="bike" id="bike5">
+      
+      <div class="selector-buttons">
+        <label for="bike1" class="selector-btn">
+          <span class="btn-inner">Classic 350</span>
+        </label>
+        <label for="bike2" class="selector-btn">
+          <span class="btn-inner">Bullet Electra</span>
+        </label>
+        <label for="bike3" class="selector-btn">
+          <span class="btn-inner">Roadster 200</span>
+        </label>
+        <label for="bike4" class="selector-btn">
+          <span class="btn-inner">Yamaha Chopper</span>
+        </label>
+        <label for="bike5" class="selector-btn">
+          <span class="btn-inner">Trail Blazer 500</span>
+        </label>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Video Section with iframe -->
+<section class="video-section">
+  <div class="section-header">
+    <span class="section-tag">FEATURED VIDEO</span>
+    <h2>WATCH <span class="highlight">IN ACTION</span></h2>
+    <p>Experience the thrill of our premium bikes</p>
+  </div>
+  
+  <div class="video-container">
+    <div class="video-frame">
+      <div class="frame-corner tl"></div>
+      <div class="frame-corner tr"></div>
+      <div class="frame-corner bl"></div>
+      <div class="frame-corner br"></div>
+      <iframe 
+        src="https://www.youtube.com/embed/LI-X4dB4LAE?autoplay=0&mute=1&loop=1" 
+        title="Bike Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        class="video-iframe">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Bike Cards Section -->
+<section class="bike-info-container" id="bikes">
+  <div class="section-header">
+    <span class="section-tag">OUR COLLECTION</span>
+    <h2>PREMIUM <span class="highlight">BIKES</span></h2>
+    <p>Discover our handpicked selection of legendary machines</p>
+  </div>
+  
+  <div class="cards-grid">
+    <!-- Card 1 -->
+    <div class="bike-card">
+      <div class="card-glow"></div>
+      <div class="card-scanner"></div>
+      <div class="card-image">
+        <img src="https://imgd.aeplcdn.com/476x268/n/cw/ec/127499/bullet-right-side-view-14.png" alt="Classic 350">
+        <div class="image-overlay">
+          <span class="overlay-text">VIEW DETAILS</span>
+        </div>
+        <div class="card-badge">BESTSELLER</div>
+      </div>
+      <div class="card-info">
+        <div class="card-header">
+          <h3>Classic 350</h3>
+          <span class="card-rating">★★★★★</span>
+        </div>
+        <p class="card-price">
+          <span class="price-label">Starting at</span>
+          <span class="price-value">₹ 1,05,000</span>
+        </p>
+        <p class="card-desc">Timeless Royal Enfield design with smooth performance and unmatched legacy.</p>
+        <div class="card-specs">
+          <div class="spec">
+            <span class="spec-icon">⚡</span>
+            <span class="spec-value">349cc</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">🔥</span>
+            <span class="spec-value">20.2 BHP</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">⛽</span>
+            <span class="spec-value">35 kmpl</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="card-btn primary">Book Now</a>
+          <a href="#" class="card-btn secondary">Compare</a>
+        </div>
+      </div>
+      <div class="card-border"></div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bike-card">
+      <div class="card-glow"></div>
+      <div class="card-scanner"></div>
+      <div class="card-image">
+        <img src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fbike-images%2Flarge%2Froyal-enfield%2Fbullet-electra%2Froyal-enfield-bullet-electra.jpg%3Fv%3D6&w=1600&q=75" alt="Bullet Electra">
+        <div class="image-overlay">
+          <span class="overlay-text">VIEW DETAILS</span>
+        </div>
+        <div class="card-badge new">NEW</div>
+      </div>
+      <div class="card-info">
+        <div class="card-header">
+          <h3>Bullet Electra</h3>
+          <span class="card-rating">★★★★☆</span>
+        </div>
+        <p class="card-price">
+          <span class="price-label">Starting at</span>
+          <span class="price-value">₹ 1,20,000</span>
+        </p>
+        <p class="card-desc">Classic look with modern ride features and enhanced comfort.</p>
+        <div class="card-specs">
+          <div class="spec">
+            <span class="spec-icon">⚡</span>
+            <span class="spec-value">499cc</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">🔥</span>
+            <span class="spec-value">27.2 BHP</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">⛽</span>
+            <span class="spec-value">30 kmpl</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="card-btn primary">Book Now</a>
+          <a href="#" class="card-btn secondary">Compare</a>
+        </div>
+      </div>
+      <div class="card-border"></div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bike-card">
+      <div class="card-glow"></div>
+      <div class="card-scanner"></div>
+      <div class="card-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGACY-0ng_9WXuf9Lh8zBCOAKxErTr_e-nAQ&s" alt="Roadster 200">
+        <div class="image-overlay">
+          <span class="overlay-text">VIEW DETAILS</span>
+        </div>
+        <div class="card-badge hot">HOT DEAL</div>
+      </div>
+      <div class="card-info">
+        <div class="card-header">
+          <h3>Roadster 200</h3>
+          <span class="card-rating">★★★★☆</span>
+        </div>
+        <p class="card-price">
+          <span class="price-label">Starting at</span>
+          <span class="price-value">₹ 95,000</span>
+        </p>
+        <p class="card-desc">Sporty and lightweight, perfect for city rides and daily commutes.</p>
+        <div class="card-specs">
+          <div class="spec">
+            <span class="spec-icon">⚡</span>
+            <span class="spec-value">199cc</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">🔥</span>
+            <span class="spec-value">24.5 BHP</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">⛽</span>
+            <span class="spec-value">40 kmpl</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="card-btn primary">Book Now</a>
+          <a href="#" class="card-btn secondary">Compare</a>
+        </div>
+      </div>
+      <div class="card-border"></div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bike-card">
+      <div class="card-glow"></div>
+      <div class="card-scanner"></div>
+      <div class="card-image">
+        <img src="https://blog.grabon.in/wp-content/uploads/2016/04/most-expensive-motorcycles-yamaha-bms-chopper-1024x576.jpg" alt="Yamaha Chopper">
+        <div class="image-overlay">
+          <span class="overlay-text">VIEW DETAILS</span>
+        </div>
+        <div class="card-badge premium">PREMIUM</div>
+      </div>
+      <div class="card-info">
+        <div class="card-header">
+          <h3>Yamaha Chopper</h3>
+          <span class="card-rating">★★★★★</span>
+        </div>
+        <p class="card-price">
+          <span class="price-label">Starting at</span>
+          <span class="price-value">₹ 5,50,000</span>
+        </p>
+        <p class="card-desc">Luxury custom chopper for enthusiasts and collectors.</p>
+        <div class="card-specs">
+          <div class="spec">
+            <span class="spec-icon">⚡</span>
+            <span class="spec-value">1100cc</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">🔥</span>
+            <span class="spec-value">65 BHP</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">⛽</span>
+            <span class="spec-value">18 kmpl</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="card-btn primary">Book Now</a>
+          <a href="#" class="card-btn secondary">Compare</a>
+        </div>
+      </div>
+      <div class="card-border"></div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="bike-card">
+      <div class="card-glow"></div>
+      <div class="card-scanner"></div>
+      <div class="card-image">
+        <img src="https://c.ndtvimg.com/2022-03/4a2qrcio_bike_625x300_07_March_22.jpg" alt="Trail Blazer 500">
+        <div class="image-overlay">
+          <span class="overlay-text">VIEW DETAILS</span>
+        </div>
+        <div class="card-badge adventure">ADVENTURE</div>
+      </div>
+      <div class="card-info">
+        <div class="card-header">
+          <h3>Trail Blazer 500</h3>
+          <span class="card-rating">★★★★★</span>
+        </div>
+        <p class="card-price">
+          <span class="price-label">Starting at</span>
+          <span class="price-value">₹ 2,45,000</span>
+        </p>
+        <p class="card-desc">Powerful trail bike designed for adventure and off-road terrain.</p>
+        <div class="card-specs">
+          <div class="spec">
+            <span class="spec-icon">⚡</span>
+            <span class="spec-value">500cc</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">🔥</span>
+            <span class="spec-value">40 BHP</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">⛽</span>
+            <span class="spec-value">25 kmpl</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="card-btn primary">Book Now</a>
+          <a href="#" class="card-btn secondary">Compare</a>
+        </div>
+      </div>
+      <div class="card-border"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section">
+  <div class="section-header">
+    <span class="section-tag">WHY CHOOSE US</span>
+    <h2>OUR <span class="highlight">FEATURES</span></h2>
+  </div>
+  
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🔒</div>
+      <h3>Secure Payment</h3>
+      <p>100% secure payment gateway with multiple options</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🚚</div>
+      <h3>Free Delivery</h3>
+      <p>Free doorstep delivery across all locations</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔧</div>
+      <h3>Free Service</h3>
+      <p>1 year free service with every purchase</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">💯</div>
+      <h3>Quality Assured</h3>
+      <p>All bikes are quality checked and certified</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section with Map -->
+<section class="contact-section" id="contact">
+  <div class="section-header">
+    <span class="section-tag">GET IN TOUCH</span>
+    <h2>CONTACT <span class="highlight">US</span></h2>
+    <p>Visit our showroom or reach out to us</p>
+  </div>
+  
+  <div class="contact-container">
+    <div class="contact-info">
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h3>Our Location</h3>
+        <p>123 Bike Street, Motor City<br>New Delhi, India 110001</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <h3>Phone Number</h3>
+        <p>+91 98765 43210<br>+91 12345 67890</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">✉️</div>
+        <h3>Email Address</h3>
+        <p>info@sdbikewala.com<br>support@sdbikewala.com</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">🕐</div>
+        <h3>Working Hours</h3>
+        <p>Mon - Sat: 9AM - 8PM<br>Sunday: 10AM - 6PM</p>
+      </div>
+    </div>
+    
+    <div class="map-container">
+      <div class="map-frame">
+        <div class="frame-corner tl"></div>
+        <div class="frame-corner tr"></div>
+        <div class="frame-corner bl"></div>
+        <div class="frame-corner br"></div>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192776!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1635774290322!5m2!1sen!2sin"
+          class="map-iframe"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter-section">
+  <div class="newsletter-content">
+    <h2>STAY <span class="highlight">UPDATED</span></h2>
+    <p>Subscribe to our newsletter for latest updates and offers</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">SUBSCRIBE</button>
+    </form> 
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-glow"></div>
+  <div class="footer-content">
+    <div class="footer-section">
+      <div class="footer-logo">
+        <span class="logo-icon">⚡</span>
+        <span>SD BIKEWALA</span>
+      </div>
+      <p>Your trusted partner for premium bikes since 2015. Experience the future of motorcycle retail.</p>
+      <div class="social-links">
+        <a href="#" class="social-link">📘</a>
+        <a href="#" class="social-link">📸</a>
+        <a href="#" class="social-link">🐦</a>
+        <a href="#" class="social-link">📺</a>
+      </div>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <a href="#">About Us</a>
+      <a href="#">New Bikes</a>
+      <a href="#">Used Bikes</a>
+      <a href="#">Sell Your Bike</a>
+      <a href="#">EMI Calculator</a>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Popular Brands</h4>
+      <a href="#">Royal Enfield</a>
+      <a href="#">Yamaha</a>
+      <a href="#">Honda</a>
+      <a href="#">Bajaj</a>
+      <a href="#">KTM</a>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Support</h4>
+      <a href="#">Contact Us</a>
+      <a href="#">FAQs</a>
+      <a href="#">Service Centers</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>© 2025 SD BIKEWALA. All Rights Reserved. | Designed with ⚡ for the Future</p>
+    <div class="footer-scanner"></div>
+  </div>
+</footer>
+
+</body>
+</html>
